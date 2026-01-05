@@ -1,0 +1,12 @@
+memmake 256;
+
+memalloc a 8;
+memalloc b 8;
+
+memset a = 12;
+memset b = 48;
+
+memalloc c 8;
+memset c = a:int + b:int;
+
+cnsdump c:int;
