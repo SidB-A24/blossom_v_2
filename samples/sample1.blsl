@@ -10,3 +10,4 @@ memalloc c 8;
 memset c = a:int + b:int;
 
 cnsdump c:int;
+
